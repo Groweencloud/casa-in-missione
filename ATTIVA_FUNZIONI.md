@@ -10,3 +10,5 @@ La migrazione è per la casa già esistente e non cancella dati. Dopo aver apert
 Le modifiche aggiungono le didascalie alle prove, le funzioni sicure per scambi e riassegnazioni e il campo bonus alle missioni. Con l’accredito automatico, il bonus viene assegnato una sola volta insieme ai punti appena viene caricata la foto.
 
 Per attivare il completamento automatico, esegui anche `AUTO_APPROVE_MISSIONS.sql`. Da quel momento la foto completa la missione e assegna subito punti e bonus; le prove già in attesa vengono approvate e accreditate una sola volta.
+
+Per la sospensione settimanale, esegui infine `WEEKLY_MISSION_SKIP.sql`. L’admin può sospendere o riattivare una missione ancora aperta; la sospensione vale solo per quella settimana.
